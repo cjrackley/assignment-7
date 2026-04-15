@@ -1,0 +1,97 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border: 2px solid white;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.spacer {
+  height: 25px;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px black;
+  background-color: rgb(92, 15, 215);
+  width: auto;
+  height: 250px;
+  
+}
+
+.view {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#display img {
+  border-radius: 10px;
+  width: 125px;
+  border: solid black;
+}
+
+#choice {
+  background-color: rgb(92, 15, 215);
+  border-radius: 10px;
+  height: 225px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.choice-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.choice-block img{
+  border-radius: 10px;
+  width: 125px;
+}
+
+.choice-block button {
+  padding-right: 15px;
+  width: 140px;
+  height: 185px;
+  border: solid 4px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+}
+
+.controls {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.controls button {
+  background-color: rgb(92, 15, 215);
+  border-radius: 7px;
+  height: 30px;
+}
+
+.result {
+  background-color: rgb(92, 15, 215);
+  
+}
+
+.active button {
+  border-color: crimson;
+}
+
